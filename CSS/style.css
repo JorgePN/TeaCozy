@@ -1,0 +1,169 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.bigcontainer {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.header {
+  display: inline-flex;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+}
+
+.hlogo {
+  display: inline-flex;
+  margin: 9.5px 10px;
+}
+
+.hnavigation {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 15px;
+}
+/* I don´t know how to prevent links from appearing BLUE in the webpage */
+.hnavigation a {
+  margin-left: 15px
+}
+
+.top {
+  display: inline-flex;
+  height: 700px;
+  width: 1200px;
+  background-image: url(./background.jpg);
+  align-items: center;
+  margin: 0px 20px;
+}
+
+.tmission {
+  display:flex;
+  flex-direction: column;
+  background-color: black;
+  height: 130px;
+  width: 100%;
+  justify-content: center;
+}
+
+#mission {
+  display: inline-flex;
+  margin-top: 5px;
+  justify-content: center;
+}
+
+.missionh4 {
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.middle {
+  display: inline-flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+.mtop {
+  display: inline-flex;
+  flex-direction: column;
+  width: 1000px;
+}
+
+#featured {
+  display: inline-flex;
+  justify-content: center;
+}
+
+.featuredsub {
+  display:inline-flex;
+  justify-content: center;
+}
+
+.mbottom {
+  display: inline-flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.mimages {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.mimages img {
+  height: 200px;
+  width: 300px;
+}
+
+.mimages h4 {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.bottom {
+  display: inline-flex;
+  flex-direction: column;
+  height: 500px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./Coffee.jpg);
+}
+
+#location {
+  display: inline-flex;
+  justify-content: center;
+}
+
+/* I am not sure how to make only .bbox to have "black" background */
+.blocation {
+  display: inline-flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+
+.bbox {
+  display: inline-flex;
+  flex-direction: column;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  justify-content: space-around;
+}
+
+.topfooter {
+  display: inline-flex;
+  height: 200px;
+  width: 1200px;
+  justify-content: center;
+}
+
+.tfbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#contact {
+  margin-bottom: 0px;
+}
+
+.last {
+  display: inline-flex;
+  margin-left: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
